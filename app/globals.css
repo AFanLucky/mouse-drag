@@ -40,3 +40,33 @@ a {
     color-scheme: dark;
   }
 }
+
+#selectBox {
+  border: 1px black dashed;
+  position: absolute;
+  z-index: 5;
+}
+
+#selectBox:hover {
+  border: 2px yellow dashed;
+  #dragBtn {
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+    width: 20px;
+    height: 20px;
+    background-color: brown;
+    border-radius: 100%;
+    cursor: se-resize;
+  }
+}
+
+#deleteBtn {
+  width: 30px;
+  height: 30px;
+  background: url('../public/delete.png');
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  background-size: cover;
+}
