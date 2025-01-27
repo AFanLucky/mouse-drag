@@ -23,8 +23,8 @@
 
 1. 克隆仓库
 ```bash
-git clone [仓库地址]
-cd ai-chat-app
+git clone https://github.com/AFanLucky/mouse-drag.git
+cd mouse-drag
 ```
 
 2. 安装依赖
@@ -32,13 +32,7 @@ cd ai-chat-app
 npm install
 ```
 
-3. 配置环境变量
-```bash
-cp .env.example .env.local
-```
-编辑 `.env.local` 文件，配置必要的环境变量。
-
-4. 运行开发服务器
+3. 运行开发服务器
 ```bash
 npm run dev
 ```
@@ -77,12 +71,3 @@ npm run dev
 ## 许可证
 
 MIT License - 查看 [LICENSE](LICENSE) 文件了解更多详情。
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
